@@ -1,0 +1,19 @@
+{
+  "name": "curso-cypress-alura",
+  "version": "1.0.0",
+  "description": "Curso de Cypress desenvolvido pelo Alura",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elietemirandazup/curso-cypress-alura.git"
+  },
+  "author": "Eliete Miranda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elietemirandazup/curso-cypress-alura/issues"
+  },
+  "homepage": "https://github.com/elietemirandazup/curso-cypress-alura#readme"
+}
