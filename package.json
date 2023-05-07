@@ -4,7 +4,7 @@
   "description": "Curso de Cypress desenvolvido pelo Alura",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress open"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/elietemirandazup/curso-cypress-alura/issues"
   },
-  "homepage": "https://github.com/elietemirandazup/curso-cypress-alura#readme"
+  "homepage": "https://github.com/elietemirandazup/curso-cypress-alura#readme",
+  "devDependencies": {
+    "mochawesome": "^7.1.3"
+  }
 }
