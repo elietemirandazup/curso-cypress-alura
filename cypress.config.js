@@ -5,6 +5,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+    "baseUrl":'https://alura-fotos.herokuapp.com/'
   },
   mochawesome: {
     "reporter": "mochawesome",
@@ -15,6 +16,8 @@ module.exports = defineConfig({
     "json": false,
     "timestamp": "mmddyyyy_HHMMss"
     }    
-  }
+  },
+  "projectId": "wj3gt3"
+  
 });
 

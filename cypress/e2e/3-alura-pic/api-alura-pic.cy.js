@@ -1,7 +1,11 @@
 // const { italic, cyan } = require("colorette")
 
 describe('Buscar fotos e dados', () => {
-    it('buscar fotos do flavio', () => {
+
+    const tempoEsperado = Math.random() * 1000
+
+
+    it.only('buscar fotos do flavio', () => {
         cy.request({
             method: 'GET',
             url: 'https://apialurapic.herokuapp.com/flavio/photos'
@@ -25,6 +29,7 @@ describe('Buscar fotos e dados', () => {
             expect(res.body.id).to.be.equal(1)
             expect(res.body).to.have.property('email')
             expect(res.body.email).to.be.equal('flavio@alurapic.com.br')
+            expect(res.duration).to.be.lte(tempoEsperado)
         })
     })
 })
